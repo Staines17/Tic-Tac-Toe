@@ -1,10 +1,6 @@
-window.addEventListener("load", ()=> {
-    const loader = document.querySelector(".loader-wrapper");
-    loader.classList.add("loader-hidden");
-    loader.addEventListener("transitionend", ()=> {
-        document.body.removeChild("loader-wrapper");
-    });
-});
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector(".load").style.visibility = "hidden";
+  });
 const combinations = [
     [1,2,3],
     [4,5,6],
