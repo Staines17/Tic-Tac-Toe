@@ -1,8 +1,8 @@
 window.addEventListener("load", ()=> {
-    const loader = document.querySelector(".loader");
+    const loader = document.querySelector(".loader-wrapper");
     loader.classList.add("loader-hidden");
     loader.addEventListener("transitionend", ()=> {
-        document.body.removeChild("loader");
+        document.body.removeChild("loader-wrapper");
     });
 });
 const combinations = [
